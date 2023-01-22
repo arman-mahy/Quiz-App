@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    
+    <string name="ques_1">Two elements from the periodic table – are used in the Breaking Bad title image. Name the elements.</string>
+    <string name="ques_2">Which area of science does Walt teach at school?</string>
+    <string name="op_1">Chemistry</string>
+    <string name="op_2">Biology</string>
+    <string name="op_3">Physics</string>
+</resources>

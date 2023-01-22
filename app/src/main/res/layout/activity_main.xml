@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/yellow"
+  >
+
+
+   <TextView
+       android:id="@+id/ques_Box"
+       android:layout_width="402dp"
+       android:layout_height="105dp"
+       android:fontFamily="sans-serif-medium"
+       android:text="@string/ques_1"
+       android:textAlignment="center"
+       android:textColor="@color/black"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.333"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.06" />
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:id="@+id/constraintLayout"
+       android:layout_width="410dp"
+       android:layout_height="573dp"
+       android:background="@drawable/bkgrnd_shape"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="1.0">
+
+
+      <Button
+          android:id="@+id/submit_btn"
+          android:layout_width="307dp"
+          android:layout_height="51dp"
+          android:background="@drawable/round_btn"
+          android:text="SUBMIT"
+          android:textColor="@color/white"
+          android:textSize="20sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.59" />
+
+      <Button
+          android:id="@+id/next_btn"
+          android:layout_width="305dp"
+          android:layout_height="48dp"
+          android:background="@drawable/round_btn"
+          android:text="NEXT"
+          android:textColor="@color/white"
+          android:textSize="20sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.702" />
+
+
+      <CheckBox
+          android:id="@+id/ques1_op2"
+          android:layout_width="179dp"
+          android:layout_height="39dp"
+          android:text="Bromine, Chlorine"
+
+          android:textSize="15sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.125"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.198" />
+
+      <CheckBox
+          android:id="@+id/ques1_op1"
+          android:layout_width="179dp"
+          android:layout_height="39dp"
+          android:text="Bromine, Barium"
+
+          android:textSize="15sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.125"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.121" />
+
+      <CheckBox
+          android:id="@+id/ques1_op3"
+          android:layout_width="179dp"
+          android:layout_height="39dp"
+          android:text="Barium, Bromine"
+
+          android:textSize="15sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.129"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.285" />
+
+      <TextView
+          android:id="@+id/result_tv"
+          android:layout_width="291dp"
+          android:layout_height="66dp"
+          android:textAlignment="center"
+          android:textColor="@color/black"
+          android:textSize="25dp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.47"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintVertical_bias="0.878" />
+
+   </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
